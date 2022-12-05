@@ -36,10 +36,12 @@ section {
 
 .hours {
   font-size: 3em;
+  color:#31536c;
 }
 
 .minutes {
   font-size: 3em;
+  color:#31536c;
 }
 
 .seconds {
@@ -58,14 +60,17 @@ section {
 
 .month {
   font-size: 3em;
+  color: #31536c;
 }
 
 .dayOfMonth {
   font-size: 3em;
+  color: #31536c;
 }
 
 .year {
   font-size: 1.5em;
+
 }
 
 .dayOfWeek {
@@ -82,7 +87,7 @@ section {
 
 .city {
   font-size: 3em;
-  
+  color: #31536c;
 }
 
 .temp {

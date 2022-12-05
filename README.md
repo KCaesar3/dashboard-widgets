@@ -16,4 +16,6 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Apply concepts from Web Design 1 and 2 with APIs from Web 3
 
 ## Citations
-List your sources here
+* [Spokane Picture](https://www.oxfordsuitesspokane.com/images/jqg_1546980628.jpg)
+* [Weather Source](https://api.openweathermap.org)
+* [Netlify Link]()

@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: ;
+  background-image: url('Spokane.jpg') ;
   height: 100vh;
 }
 

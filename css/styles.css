@@ -31,6 +31,7 @@ section {
 /* Time */
 .time {
   padding: 3em;
+  
 }
 
 .hours {
@@ -81,6 +82,7 @@ section {
 
 .city {
   font-size: 3em;
+  
 }
 
 .temp {

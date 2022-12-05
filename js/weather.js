@@ -1,9 +1,11 @@
 // API key. Replace with your API key
-const APIKEY = 'f2f85762267ef18d0df71e18ec9f3737';
+//Done :)
+const APIKEY = '9bcce09c6e6225c51773a591f0e39df9';
 // City
 const city = 'Spokane';
 // Units for Farenheit
 const units = 'imperial';
+const feels_like = 'imperial';
 
 // URL query string
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=${units}`;
@@ -24,8 +26,13 @@ fetch(url)
     <h1>Weather</h1>
     <data value="${data.name}" class="city">${data.name}</data>
     <data value="${data.main.temp}" class="temp">${data.main.temp}&#8457;</data>
-    <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Placeholder">
-  `;
+   <h3>Feels Like</h3>
+     <data value="${data.main.feels_like}" 
+    class="temp">${data.main.feels_like}&#8457;</data>
+    <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Placeholder" > 
+    
+  `
+  ;
   
   // Insert dynamic template to container
   weatherContainer.insertAdjacentHTML("afterbegin", template);

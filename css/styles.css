@@ -1,50 +1,70 @@
 /* Grid */
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: ;
+  height: 100vh;
+}
+
 .layout {
   /* Set your own grid   */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 400px;
-  grid-column-gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1em;
 }
 
 /* Widgets */
 section {
-  background: lightgray;
+  background: lightgrey;
   padding: 1em;
-  
+  padding: 1em 3em;
   /* Relative Parent. Absolute Child */
   position: relative;
+  place-items: center;
+  opacity: 0.8;
 }
 
 /* Time */
 .time {
+  padding: 3em;
 }
 
 .hours {
+  font-size: 3em;
 }
 
 .minutes {
+  font-size: 3em;
 }
 
 .seconds {
+  font-size: 1.5em
 }
 
 .amOrPM {
+  font-size: 1.5em;
   
 }
 
 /* Date */
 .date {
-  
+  padding: 3em;
 }
 
 .month {
+  font-size: 3em;
 }
 
 .dayOfMonth {
+  font-size: 3em;
 }
 
 .year {
+  font-size: 1.5em;
 }
 
 .dayOfWeek {
@@ -52,11 +72,15 @@ section {
 
 /* Weather */
 .weather {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  place-items: center;
   
 }
 
 .city {
-  
+  font-size: 3em;
 }
 
 .temp {
@@ -64,5 +88,4 @@ section {
 }
 
 .weather img {
-  
 }
